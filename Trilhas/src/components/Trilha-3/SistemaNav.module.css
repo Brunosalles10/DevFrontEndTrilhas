@@ -1,0 +1,23 @@
+.navegar {
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navegar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.navegar ul li {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}

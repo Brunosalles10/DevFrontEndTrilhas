@@ -1,0 +1,25 @@
+.saudacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(red, green, blue, alpha);
+  margin: 10px;
+}
+
+.input-saudacao {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.saudacao-texto {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}

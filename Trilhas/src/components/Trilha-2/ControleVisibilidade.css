@@ -1,0 +1,39 @@
+.toggle-visibilidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #d3d012;
+  box-shadow: 2px 2px 10px rgba(8, 8, 8, 0.1);
+  width: 300px;
+  margin: auto;
+}
+
+.texto-exibir-ocultar {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.texto-mostrar {
+  font-size: 16px;
+  color: #12b829;
+  margin-bottom: 10px;
+}
+
+.botao-mostrar {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.botao-mostrar:hover {
+  background-color: #0056b3;
+}
