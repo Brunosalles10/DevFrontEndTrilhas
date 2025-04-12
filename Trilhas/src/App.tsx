@@ -8,6 +8,8 @@ import Home from "./components/Trilha-3/Home";
 import RoomDetails from "./components/Trilha-3/RoomDetails";
 import Rooms from "./components/Trilha-3/Rooms";
 import SistemaNav from "./components/Trilha-3/SistemaNav";
+import BuscarUsuario from "./components/Trilha-4/BuscarUsuario";
+import CadastroUsuario from "./components/Trilha-4/CriarNovoUsuario";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/rooms" element={<Rooms />} />
         <Route path="/roomdetails/:id" element={<RoomDetails />} />
         <Route path="/booking-success" element={<BookingSuccess />} />
+        <Route path="/buscar-usuario" element={<BuscarUsuario />} />
+        <Route path="/cadastrar-usuario" element={<CadastroUsuario />} />
       </Routes>
     </Router>
   );
